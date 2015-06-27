@@ -47,7 +47,7 @@ end
 
 dist_dir, conf_dir = value_for_platform_family(
   ['debian'] => %w{ debian default },
-  ['rhel'] => %w{ redhat sysconfig },
+  ['rhel'] => %w{ redhat sysconfig }
 )
 
 template '/etc/jboss-as.conf' do
